@@ -45,7 +45,7 @@ public class MainThread extends Thread{
 				}
 			}
 			if(myGD != null) {
-				robot=new Robot(gs[1]);
+				robot=new Robot(myGD);
 			}
 			else {
 				System.out.println("Could not find 0 0 screen");
